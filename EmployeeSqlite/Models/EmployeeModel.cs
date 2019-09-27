@@ -5,11 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using SQLite;
 
 namespace EmployeeSqlite.Models
 {
     public class EmployeeModel: BaseModel
     {
+
         private string _FirstName;
         public string FirstName
         {
