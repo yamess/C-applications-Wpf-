@@ -12,6 +12,15 @@ namespace EmployeeSqlite.Models
     public class EmployeeModel: BaseModel
     {
 
+        private int _ID;
+
+        public int ID
+        {
+            get { return _ID; }
+            set { _ID = value; RaisePropertyChanged("ID"); }
+        }
+
+
         private string _FirstName;
         public string FirstName
         {
@@ -63,11 +72,17 @@ namespace EmployeeSqlite.Models
         {
             if (DesignerProperties.GetIsInDesignMode(new DependencyObject()))
             {
+                ID = 2;
                 FirstName = "Yameogo";
                 LastName = "Abou";
                 Manager = "Yameogo";
                 Position = "CEO";
             }
+        }
+
+        public void SaveToDabase()
+        {
+
         }
     }
 }

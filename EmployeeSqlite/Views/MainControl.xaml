@@ -50,19 +50,19 @@
             <TextBlock Grid.Row="3" Grid.Column="0" Text="Position" VerticalAlignment="Bottom"/>
 
             <TextBox Grid.Row="0" Grid.Column="1" BorderThickness="1" Text="{Binding EmpModel.FirstName, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="firstNameTextBox"/>
-            <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding EmpModel.LastName, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="lastNameTextBox"/>
-            <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding EmpModel.Position, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="positionTextBox"/>
-            <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding EmpModel.Manager, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="managerTextBox"/>
+            <TextBox Grid.Row="1" Grid.Column="1" BorderThickness="1" Text="{Binding EmpModel.LastName, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="lastNameTextBox"/>
+            <TextBox Grid.Row="2" Grid.Column="1" BorderThickness="1" Text="{Binding EmpModel.Position, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="positionTextBox"/>
+            <TextBox Grid.Row="3" Grid.Column="1" BorderThickness="1" Text="{Binding EmpModel.Manager, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="managerTextBox"/>
 
             <TextBlock Grid.Row="0" Grid.Column="3" Text="Address" VerticalAlignment="Bottom"/>
             <TextBlock Grid.Row="1" Grid.Column="3" Text="Salary" VerticalAlignment="Bottom"/>
             <TextBlock Grid.Row="2" Grid.Column="3" Text="Date Of Hire" VerticalAlignment="Bottom"/>
             <TextBlock Grid.Row="3" Grid.Column="3" Text="Email Adress" VerticalAlignment="Bottom"/>
 
-            <TextBox Grid.Row="0" Grid.Column="4" Text="{Binding EmpModel.FirstName, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="addressTextBox"/>
-            <TextBox Grid.Row="1" Grid.Column="4" Text="{Binding EmpModel.LastName, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="salaryTextBox"/>
-            <TextBox Grid.Row="2" Grid.Column="4" Text="{Binding EmpModel.Position, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="dateOfHireTextBox"/>
-            <TextBox Grid.Row="3" Grid.Column="4" Text="{Binding EmpModel.Manager, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="EmailTextBox"/>
+            <TextBox Grid.Row="0" Grid.Column="4" BorderThickness="1" Text="{Binding EmpModel.FirstName, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="addressTextBox"/>
+            <TextBox Grid.Row="1" Grid.Column="4" BorderThickness="1" Text="{Binding EmpModel.LastName, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="salaryTextBox"/>
+            <TextBox Grid.Row="2" Grid.Column="4" BorderThickness="1" Text="{Binding EmpModel.Position, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="dateOfHireTextBox"/>
+            <TextBox Grid.Row="3" Grid.Column="4" BorderThickness="1" Text="{Binding EmpModel.Manager, Mode=TwoWay}" VerticalAlignment="Bottom" x:Name="EmailTextBox"/>
 
 
             <StackPanel Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
