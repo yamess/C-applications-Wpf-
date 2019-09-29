@@ -14,6 +14,5 @@ namespace EmployeeSqlite.ViewModels
         {
             EmpModel = new EmployeeModel();
         }
-
     }
 }
